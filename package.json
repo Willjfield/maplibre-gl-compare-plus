@@ -1,0 +1,37 @@
+{
+  "name": "maplibre-gl-compare-plus",
+  "version": "0.1.0",
+  "description": "A plugin for maplibregljs that allows for comparing two maps side by side or one on top of the other.",
+  "main": "index.js",
+  "browser": "dist/maplibre-gl-compare-plus.min.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "scripts": {
+    "demo": "vite serve ./demo",
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willjfield/maplibre-gl-compare-plus.git"
+  },
+  "author": "willjfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Willjfield/maplibre-gl-compare-plus/issues"
+  },
+  "homepage": "https://github.com/Willjfield/maplibre-gl-compare-plus#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "maplibre-gl": "^5.4.0",
+    "@mapbox/mapbox-gl-sync-move": "^0.3.1",
+    "rollup": "^4.52.5",
+    "vite": "^6.3.1"
+  }
+}
