@@ -1,6 +1,6 @@
 {
   "name": "maplibre-gl-compare-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A plugin for maplibregljs that allows for comparing two maps side by side or one on top of the other.",
   "main": "index.js",
   "browser": "dist/maplibre-gl-compare-plus.min.js",
